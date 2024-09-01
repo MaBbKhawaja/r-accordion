@@ -6,14 +6,18 @@ import Accordion from './components/Accordion.vue'
 <template>
   <Accordion>
     <template v-slot:header>
-    <!-- content for the header slot -->
-     hello
-  </template>
-  <template v-slot:content>
-    <!-- content for the header slot -->
-     this is anees
-  </template>
-    </Accordion>
+      <!-- content for the header slot -->
+      hello
+    </template>
+    <div>
+      this is anees baig
+    </div>
+  </Accordion>
+  <Accordion header="I am a header">
+    <div>
+      this is anees baig
+    </div>
+  </Accordion>
 </template>
 
 <style scoped>
